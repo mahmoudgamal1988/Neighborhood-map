@@ -57,6 +57,7 @@ function createContent(loc) {
 // it makes an ajax call to get info from foursquare api for this destination.
 function openInfo(loc) {
 	loc.marker.setAnimation(google.maps.Animation.BOUNCE);
+	setTimeout(function(){ loc.marker.setAnimation(null); }, 1000);
 	var url = "https://api.foursquare.com/v2/venues/search?client_id=R1EH1PWJV5HQ2MPKNIKZ3AQPWOGFRUZNW2TSOSC2BN5TCA4V&client_secret=3UM4HUND3RMJJ1U2I3BOUD55HI0QRQWABKSI5WLAZTJ3RKQ5&v=20190603"+
 		"&ll="+loc.lat+","+loc.lng+
 		"&query=restaurant"+
