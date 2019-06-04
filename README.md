@@ -10,6 +10,10 @@ This app allows the users to choose their destination and to get some informatio
 This project has been done with native JS along with the knockout js library, it consists from google maps api and to make ajax calls to get some info from foursquare api.
 
 
+## How to run the app
+
+By either downloading or cloning the project, then open the index.html file in your favourite browser.
+
 ## References
 
 1- w3schools
